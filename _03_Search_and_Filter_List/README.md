@@ -1,8 +1,20 @@
-### **Search & Filter List**
+# 🛒 React Search & Filter App
 
-- Given a list of items (users/products/emails), add search functionality.
-- Add filters (e.g., by category, price, status).
-- Show “no results found” if nothing matches.
+A simple React app that demonstrates **search and filter functionality** on a product list.  
+Users can search products, filter by category, rating, and apply price range filters.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Search** products by name (case-insensitive).
+- 🏷️ **Filter by Category** (Electronics, Clothing, Kitchen, Footwear).
+- ⭐ **Filter by Rating** (show products with rating greater than or equal to selected value).
+- 💰 **Filter by Price Range** (set minimum and maximum price).
+- ⚡ **Dynamic Rendering** – Products update instantly as filters are applied.
+- 📉 **Fallback Handling** – Shows `"No Product Found"` if no matches are found.
+
+---
 
 
 <!--
