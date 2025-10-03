@@ -18,3 +18,9 @@ A simple React app that demonstrates **search and filter functionality** on a pr
 Users can search products, filter by category, rating, and apply price range filters.
 - [3.🛒 React Search & Filter App](./_03_Search_and_Filter_List/README.md)
 - [Live Url](https://frontend-machine-coding-task-x17r.vercel.app/)
+
+# 4. Client-Side Pagination React App
+
+A simple React application that fetches posts from an API and displays them with client-side pagination.
+- [4.🛒 Client-Side Pagination React App](./_04_pagination_Large_ApiData_Client_side/README.md)
+- [Live Url]()

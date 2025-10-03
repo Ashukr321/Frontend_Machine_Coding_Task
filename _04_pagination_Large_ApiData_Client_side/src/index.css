@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  --webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  padding:10px;
+  background-color:whitesmoke;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+button {
+  padding: 4px;
+  min-width: 50px;
+  cursor: pointer;
+  background-color: rgb(63, 63, 224);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin: 3px;
+  transition: all 0.3s ease; /* modern browsers handle this */
+}
+
+button:hover {
+  background-color: rgb(26, 26, 238);
+}
+
+/* post  */
+.posts-container {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 15px;
+  justify-content:center;
+  margin-top: 20px;
+  height:80vh;
+  padding:20px;
+  overflow-y: scroll;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width:300px;
+  height:200px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  -webkit-transition: transform 0.2s ease, box-shadow 0.2s ease;
+  -moz-transition: transform 0.2s ease, box-shadow 0.2s ease;
+  -ms-transition: transform 0.2s ease, box-shadow 0.2s ease;
+  -o-transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.post-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-body {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+
