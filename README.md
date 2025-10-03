@@ -11,3 +11,10 @@ A simple React Todo App built with functional components and hooks.
 Features include adding todos with validation, deleting todos, toggling completion, searching, and filtering (All / Active / Completed).s
 - [2. Todo App](./_02_todo_app/README.md)
 - [live Url](https://frontend-machine-coding-task-377o.vercel.app/)
+
+# 3 🛒 React Search & Filter App
+
+A simple React app that demonstrates **search and filter functionality** on a product list.  
+Users can search products, filter by category, rating, and apply price range filters.
+- [3.🛒 React Search & Filter App](./_03_Search_and_Filter_List/README.md)
+- [Live Url](https://frontend-machine-coding-task-x17r.vercel.app/)

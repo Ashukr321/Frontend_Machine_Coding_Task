@@ -7,6 +7,12 @@ function App() {
   const [category, setCategory] = useState("All");
   const [rating, setRating] = useState("All");
 
+  // feature sort based on price state
+  // minPrice 
+  const [minPrice, setMinPrice] = useState(100);
+  const [maxPrice, setMaxPrice] = useState(50000);
+
+  // MaxPrice 
   // data 
   const products = [
     { id: 101, name: "Laptop", category: "Electronics", price: 50000, status: "available", brand: "Dell", rating: 4.5 },
@@ -28,10 +34,10 @@ function App() {
     .filter((prd) => prd.name.toLowerCase().includes(search.toLowerCase()))
     .filter(prd => category === "All" || prd.category.toLowerCase() === category.toLowerCase())
     .filter((prd) => rating === "All" || Math.floor(prd.rating) >= Number(rating))
-
+    .filter((prd) => prd.price >= minPrice && prd.price <= maxPrice);
 
   console.log(filterProducts);
-
+  console.log(minPrice);
   return (
     <>
       <h1 className='title'>Search and Filter </h1>
@@ -62,7 +68,7 @@ function App() {
               {/* rating filter */}
               <label >
                 <span> Rating:</span>
-                <select onChange={(e) => { setRating(e.target.value) }}>
+                <select value={rating} onChange={(e) => { setRating(e.target.value) }}>
                   <option value="rating" >All</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -72,13 +78,35 @@ function App() {
                 </select>
               </label>
 
+              {/* Min Price filter */}
+              <label>
+                <span>Min Price:</span>
+                <select value={minPrice} onChange={(e) => setMinPrice(Number(e.target.value))}>
+                  <option value={100}>100₹</option>
+                  <option value={1000}>1000₹</option>
+                  <option value={5000}>5000₹</option>
+                  <option value={10000}>10000₹</option>
+                  <option value={20000}>20000₹</option>
+                </select>
+              </label>
+
+              {/* Max Price filter */}
+              <label>
+                <span>Max Price:</span>
+                <select value={maxPrice} onChange={(e) => setMaxPrice(Number(e.target.value))}>
+                  <option value={5000}>5000₹</option>
+                  <option value={10000}>10000₹</option>
+                  <option value={20000}>20000₹</option>
+                  <option value={35000}>35000₹</option>
+                  <option value={50000}>50000₹</option>
+                </select>
+              </label>
             </div>
           </form>
         </div>
 
 
         {/* displayData */}
-
         <div className='products'>
           {
             filterProducts.length > 0 ? (

@@ -7,9 +7,13 @@ body{
   background-color:gainsboro;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .container{
-  max-width: 700px;
-  height:70vh;
+  max-width: 1000px;
+  height:80vh;
   background-color:white;
   margin: 0 auto;
   padding:10px;
@@ -26,17 +30,28 @@ body{
 }
 
 
-input[type="text"]{
-  width:100%;
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;        /* subtle border */
+  border-radius: 8px;            /* smoother rounded edges */
   outline: none;
-  padding:8px 8px;
-  border-radius:6px;
-  font-size:16px;
+  background-color: #fff;
+  transition: all 0.3s ease;     /* smooth focus effect */
 }
 
-input[type="text"]:focus{
-  
-  border:2px solid blue
+/* placeholder style */
+input[type="text"]::placeholder {
+  color: #888;
+  font-size: 14px;
+}
+
+/* focus effect */
+input[type="text"]:focus {
+  border-color: #ff9800;         /* highlight border */
+  box-shadow: 0 0 6px rgba(255, 152, 0, 0.4);
+  background-color: #fffdf7;     /* subtle background change */
 }
 
 label span{
@@ -72,17 +87,57 @@ select:hover{
   height:calc(70vh - 120px);
   overflow-y: scroll;
   padding:10px;
+  
   background-color:white;
 }
 
 .products{
   display:flex;
   flex-wrap: wrap;
+  gap: 10px;
   justify-content:center;
+  
 }
-.product_card{
+
+
+.product_card {
   display: flex;
-  width:200px;
-  flex-direction:column;
-  height:180px;
+  flex-direction: column;
+  width: 240px;              /* slightly bigger */
+  min-height: 200px;
+  border: 1px solid #f0b84d; /* softer orange */
+  border-radius: 12px;       /* rounded corners */
+  padding: 16px;
+  background: #fff;          /* clean white background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  transition: all 0.3s ease; /* smooth hover animation */
+  cursor: pointer;
+}
+
+/* hover effect */
+.product_card:hover {
+  transform: translateY(-5px);     /* lift on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  border-color: #ff9800;           /* brighter orange */
+}
+
+/* heading style */
+.product_card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: #333;
+}
+
+/* text inside card */
+.product_card p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* highlight price */
+.product_card p:nth-of-type(2) {
+  font-weight: bold;
+  color: #e65100; /* orange shade */
 }
