@@ -36,3 +36,8 @@ A simple React application that fetches posts from an API and displays them with
      - High to Low: `(b.price - a.price)`
 - [7.🛒 SortProd product](./_07_sorting_features/README.md)
 - [Live Url]()
+
+# 8. Persistant counter value with localstorage 
+Persistent Counter App with increment, decrement, clear functionality, and state saved in localStorage for reload persistence.
+- [8 .Persistant counter value with localstorage](./_08_persistant_counter_app_localstorage/README.md)
+- [Live Url]()
