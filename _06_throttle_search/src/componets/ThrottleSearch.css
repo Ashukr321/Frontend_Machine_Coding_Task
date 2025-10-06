@@ -1,0 +1,48 @@
+h1{
+  text-align:center;
+  margin: 20px 0;
+  font-size:bold;
+  font-size:48px;
+}
+
+form{
+  width:90%;
+  margin:0 auto;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:1px 1px 3px #ccc;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -ms-border-radius:8px;
+  -o-border-radius:8px;
+  outline: none;
+}
+
+.input_box{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+input[type="text"]{
+  width:100%;
+  font-size:18px;
+  padding: 10px;
+  outline: none;
+  border:1px solid #ccc;
+  border-radius:6px;
+  transition: all .3 ease;
+  -webkit-transition: all .3 ease;
+  -moz-transition: all .3 ease;
+  -ms-transition: all .3 ease;
+  -o-transition: all .3 ease;
+}
+
+input[type="text"]::placeholder{
+  color: gray;
+  font-size:16px;
+}
+
+input[type="text"]:hover{
+  border:1px solid #4b60e7;
+  box-shadow:.5px .5px 2px #ccc;
+}

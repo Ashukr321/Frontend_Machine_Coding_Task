@@ -8,6 +8,7 @@ function App() {
   const [showPassword, setShowPassword] = useState(false);
 
 
+  //  handler function
   const showPasswordHandler = () => {
     setShowPassword(!showPassword);
   }
@@ -18,6 +19,7 @@ function App() {
     const updatedEmail = emails.filter((_, index) => index !== id);
     setRegEmail(updatedEmail);
   }
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -69,7 +71,6 @@ function App() {
         </div>
 
         {/* password */}
-
         {/*  display error message */}
         {error ? (<p style={{ color: "red" }}>{error}</p>) : ""}
         {/* form submit */}
@@ -98,7 +99,6 @@ function App() {
             })
           }
         </div>
-
       </div>
     </>
   )

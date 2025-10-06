@@ -1,0 +1,50 @@
+h1{
+  text-align:center;
+  margin-top: 20px;
+}
+
+.header{
+  margin:10px 0;
+}
+
+.priceTag{
+  display:flex;
+  justify-content:space-between;
+}
+
+
+.stock{
+  margin-top: 10px;
+}
+
+form{
+  display:flex;
+  justify-content:center;
+  
+}
+select{
+  background-color:rgb(51, 110, 193);
+  color:white;
+  outline: none;
+  margin:0 auto;
+  margin-bottom: 20px;
+  border-radius:5px;
+  gap: "20px";
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+
+select:hover{
+  background-color:rgb(18, 103, 222);
+  color:white;
+  outline: none;
+  margin:0 auto;
+}
