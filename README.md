@@ -24,3 +24,15 @@ Users can search products, filter by category, rating, and apply price range fil
 A simple React application that fetches posts from an API and displays them with client-side pagination.
 - [4.🛒 Client-Side Pagination React App](./_04_pagination_Large_ApiData_Client_side/README.md)
 - [Live Url](https://frontend-machine-coding-task-qduz.vercel.app/)
+
+
+# 7   SortProd 
+## Core Features
+ - Users can sort products by price in two ways:
+     - Low to High
+     - High to Low
+   - Uses JavaScript’s `Array.sort()` with a compare function:
+     - Low to High: `(a.price - b.price)`
+     - High to Low: `(b.price - a.price)`
+- [7.🛒 SortProd product](./_07_sorting_features/README.md)
+- [Live Url]()

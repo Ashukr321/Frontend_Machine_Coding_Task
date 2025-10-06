@@ -69,7 +69,7 @@ function App() {
               <label >
                 <span> Rating:</span>
                 <select value={rating} onChange={(e) => { setRating(e.target.value) }}>
-                  <option value="rating" >All</option>
+                  <option value="all" >All</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
