@@ -37,7 +37,19 @@ A simple React application that fetches posts from an API and displays them with
 - [7.🛒 SortProd product](./_07_sorting_features/README.md)
 - [Live Url](https://frontend-machine-coding-task-tn5x.vercel.app/)
 
+---
 # 8. Persistant counter value with localstorage 
 Persistent Counter App with increment, decrement, clear functionality, and state saved in localStorage for reload persistence.
 - [8 .Persistant counter value with localstorage](./_08_persistant_counter_app_localstorage/README.md)
 - [Live Url](https://frontend-machine-coding-task-9jlm.vercel.app/)
+
+---
+
+
+---
+# 8.  Modal open and close  
+ implement modal open and close on event( button click)
+- [8 Implement Modal open and close](./_09_model_open_features/README.md)
+- [Live Url]()
+---
+
