@@ -57,7 +57,7 @@ Persistent Counter App with increment, decrement, clear functionality, and state
 # 10.  Theme Toggle dark and light mode
  Theme Toggle dark and light mode
 - [10. Theme Toggle dark and light mode](./_10_theme_toggle_dark_light_mode/README.md)
-- [Live Url]()
+- [Live Url](https://frontend-machine-coding-task-69cy.vercel.app/)
 ---
 
 
