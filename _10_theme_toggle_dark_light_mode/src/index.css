@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  --webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html.dark  body{
+  background-color:black;
+  color:white;
+}
+
+h1{
+  font-size:48px;
+}
+
+html.dark h1{
+  color:orange;
+}
