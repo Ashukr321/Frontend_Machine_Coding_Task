@@ -60,5 +60,15 @@ Persistent Counter App with increment, decrement, clear functionality, and state
 - [Live Url](https://frontend-machine-coding-task-69cy.vercel.app/)
 ---
 
+---
+# 11.  AutoComplete Search bar ...
+ AutoComplete Search bar
+- [11. AutoComplete Search bar](./_11_autocomplete_search_bar/README.md)
+- [Live Url](https://frontend-machine-coding-task-five.vercel.app/)
+---
+
+
+
+
 
 
