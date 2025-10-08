@@ -1,1 +1,11 @@
 # AutoCompletion SearchBar ...
+ - ✨ Debounced Search – Efficient API calls while typing. 
+ - ✨ Search Suggestions – Shows top 5 suggestions based on user input.
+ - ✨ Recent Search History – Stores your last 5 searches in localStorage.
+ - ✨ Clickable Recent Searches – Quickly revisit past searches.
+ - ✨ Delete Recent Searches – Remove any unwanted search terms.
+ - ✨ Default / Initial Data Load – Products are displayed even before typing.
+ - ✨ Product Display – Clean cards with image, title, description, and price.
+ - ✨ Smooth UI Interactions – Fully responsive and interactive.
+ - ✨ Async API Fetch – Non-blocking, fast data loading.
+-  💡 Features like these are widely used in companies
