@@ -44,8 +44,6 @@ Persistent Counter App with increment, decrement, clear functionality, and state
 - [Live Url](https://frontend-machine-coding-task-9jlm.vercel.app/)
 
 ---
-
-
 ---
 # 9.  Modal open and close  
  implement modal open and close on event( button click)
