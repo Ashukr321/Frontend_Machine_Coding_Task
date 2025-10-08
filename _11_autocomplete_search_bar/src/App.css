@@ -78,6 +78,10 @@ input:focus {
   height: 150px;
   border-radius: 10px;
   object-fit: cover;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .description {
@@ -116,4 +120,50 @@ input:focus {
   50% {background-size: 20% 100%,20% 10% ,20% 100%}
   66% {background-size: 20% 100%,20% 100%,20% 10% }
   100%{background-size: 20% 100%,20% 100%,20% 100%}
+}
+/* Container for recent searches */
+.recent_box {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+
+/* Individual recent search item */
+.recent_search {
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+  padding: 8px 12px;
+  transition: background-color 0.2s, color 0.2s;
+  font-size: 14px;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  -moz-transition: background-color 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect for items */
+.recent_search:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Text for the search term */
+.recent_search span:first-child {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Delete button styling */
+.recent_search span:last-child {
+  color: #888;
+  cursor: pointer;
 }
