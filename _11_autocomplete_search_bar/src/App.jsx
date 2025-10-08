@@ -34,7 +34,7 @@ function App() {
 
   // Filter suggestions
   useEffect(() => {
-    if (!search.trim()) {
+    if (!search.trim()) {  
       setSuggestion([]);
       return;
     }
