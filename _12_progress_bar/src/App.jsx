@@ -16,7 +16,6 @@ function App() {
     {
       value: 80,
       labelPosition: "right"
-
     },
     {
       value: 60,

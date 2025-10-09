@@ -67,6 +67,14 @@ Persistent Counter App with increment, decrement, clear functionality, and state
 
 
 
+---
+# 12.  Dynamic ProgressBar
+Dynamic ProgressBar
+- [12. Dynamic ProgressBar](./_12_progress_bar/README.md)
+- [Live Url](https://frontend-machine-coding-task-trvf.vercel.app/)
+---
+
+
 
 
 
