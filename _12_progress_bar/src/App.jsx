@@ -1,5 +1,4 @@
 
-import { GiApc } from 'react-icons/gi'
 import './App.css'
 import ProgressBar from './compnents/ProgressBar'
 
@@ -33,7 +32,7 @@ function App() {
     alignItems: "center",
     gap: "10px",
     marginTop: "100px",
-    
+
   }
   return (
     <>
