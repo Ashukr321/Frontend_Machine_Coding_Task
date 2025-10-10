@@ -1,0 +1,22 @@
+h1{
+  text-align:center;
+  margin:20px;
+  font-size:38px;
+}
+
+.arrow-icon {
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: orange;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.arrow-icon:hover {
+  color: darkorange;
+  transform: scale(1.2);
+}
