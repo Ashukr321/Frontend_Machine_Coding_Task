@@ -1,0 +1,32 @@
+h1{
+  text-align:center;
+  margin:20px;
+  font: 36px sans-serif;
+  font-weight:bold;
+}
+
+.form_container{
+  max-width: 700px;
+  height:auto;
+  display: block;
+  margin:0 auto;
+  border-radius:10px;
+  background-color:gainsboro;
+  box-shadow:.5px .5px 10px #faf4f4,5px 5px 10px #fff;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  padding:10px ;
+
+}
+
+form{
+  background-color:white;
+  padding:50px 20px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
