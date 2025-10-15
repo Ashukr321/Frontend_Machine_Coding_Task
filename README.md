@@ -94,18 +94,31 @@ AutoFocus form and validations
 ---
 # 15.  Create Reusable Tooltip components
 Create Reusable Tooltip components
-- [14. Create Reusable Tooltip components](./_15_tooltil_hover/README.md)
+- [15. Create Reusable Tooltip components](./_15_tooltil_hover/README.md)
 - [Live Url](https://frontend-machine-coding-task-hjes.vercel.app/)
 ---
 
 
 ---
-# 15. Live Clock
+# 16. Live Clock
 Live Clock
-- [14.Live Clock](./_16_live_clock/README.md)
+- [16.Live Clock](./_16_live_clock/README.md)
 - [Live Url](https://live-clock-zeta.vercel.app/)
 ---
 
+---
+# 17. Accordion
+Accordion
+- [17.Accordion]()
+- [Live Url]()
+---
 
+
+---
+# 18. Click to Clipboard
+Click to Clipboard
+- [18.Click to Clipboard]()
+- [Live Url](https://frontend-machine-coding-task-la5a.vercel.app/)
+---
 
 
