@@ -106,6 +106,19 @@ Live Clock
 - [Live Url](https://live-clock-zeta.vercel.app/)
 ---
 
+---
+# 17. Accordion
+Accordion
+- [17.Accordion]()
+- [Live Url]()
+---
 
+
+---
+# 18. Click to Clipboard
+Click to Clipboard
+- [18.Click to Clipboard]()
+- [Live Url](https://frontend-machine-coding-task-la5a.vercel.app/)
+---
 
 
