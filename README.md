@@ -128,3 +128,12 @@ Infinite scrollbar
 - [Live Url](https://frontend-machine-coding-task-dusky.vercel.app/)
 ---
 
+---
+# 20. Image Carousel
+Image Carousel
+- [20.Image Carousel]()
+- [Live Url](https://frontend-machine-coding-task-6j1i.vercel.app/)
+---
+
+
+
