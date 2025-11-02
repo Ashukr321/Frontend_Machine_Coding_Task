@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EducationFormComp = ({ formData, handleChange }) => {
+const EducationFormComp = ({ formData, handleChange,errors }) => {
   return (
     <div className='mt-4'>
       <label htmlFor="education" className='font-bold'>Qualification</label>
@@ -11,6 +11,7 @@ const EducationFormComp = ({ formData, handleChange }) => {
         onChange={handleChange}
         className='w-full border p-2 my-3'
       />
+      {errors.education && <p className='text-red-500 text-sm'>{errors.education}</p>}
     </div>
   )
 }
