@@ -1,12 +1,10 @@
-import React from 'react'
+
 import './App.css'
-import TabForm from './components/TabForm'
+import MultiStepForm from './components/MultiStepForm'
 const App = () => {
   return (
-    <div>
-      <h1>multi step form</h1>
-
-      <TabForm />
+    <div className='flex p-10 bg-black items-center justify-center h-screen'>
+      <MultiStepForm />
     </div>
   )
 }
