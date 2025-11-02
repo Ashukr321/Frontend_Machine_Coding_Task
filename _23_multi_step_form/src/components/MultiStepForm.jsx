@@ -12,6 +12,30 @@ const MultiStepForm = () => {
     experience: ""
   })
 
+  // error state
+  const [error, setError] = useState({});
+
+
+  // 
+  const validateStep = () => {
+    // create empty 
+    let newError = {};
+    if (step == 0) {
+      if (!formData.name.trim()) newError.name = "Name is required!"
+      if (!formData.email.trim()) newError.email = "Email is required!"
+    }
+    if (step == 1) {
+      if (!formData.education.trim()) newError.education = "Education is required!"
+    }
+    if (step == 2) {
+      if (!formData.experience.trim()) newError.experience = "Experience is required"
+    }
+
+    setError(newError);
+    // do the empty 
+    return Object.keys(newError).length == 0
+  }
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }))
@@ -23,18 +47,24 @@ const MultiStepForm = () => {
   }
   // nextHandler 
   const nextHandler = () => {
-    setStep((prev) => prev + 1);
+    if (validateStep()) {
+      setStep((prev) => prev + 1);
+    }
   }
 
   // handleSubmit 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    if (validateStep()) {
 
-    // resetForm data 
-    setFormData({ name: "", email: "", education: "", experience: "" });
-    // setStep to 0 
-    setStep(0);
+      console.log(formData);
+      // resetForm data 
+      setFormData({ name: "", email: "", education: "", experience: "" });
+      // setStep to 0 
+      setStep(0);
+    }
+
+
   }
 
 
@@ -42,11 +72,11 @@ const MultiStepForm = () => {
   const renderStep = () => {
     switch (step) {
       case 0:
-        return <AboutFormComp formData={formData} handleChange={handleChange} />
+        return <AboutFormComp formData={formData} handleChange={handleChange} errors={error} />
       case 1:
-        return <EducationFormComp formData={formData} handleChange={handleChange} />
+        return <EducationFormComp formData={formData} handleChange={handleChange} errors={error} />
       case 2:
-        return <ExperienceFormComp formData={formData} handleChange={handleChange} />
+        return <ExperienceFormComp formData={formData} handleChange={handleChange} errors={error} />
       default:
         return null;
     }
