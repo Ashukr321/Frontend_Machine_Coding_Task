@@ -1,9 +1,11 @@
 import React from 'react'
 import './index.css'
+import './App.css'
+import OtpContainer from './components/OtpContainer'
 const App = () => {
   return (
-    <div>
-      <h1>OTP</h1>
+    <div className='app'>
+      <OtpContainer></OtpContainer>
     </div>
   )
 }
