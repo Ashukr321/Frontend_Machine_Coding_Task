@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const AdvancedValidation = () => {
 
   // state 
+  // crated the object of form state 
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -11,6 +12,7 @@ const AdvancedValidation = () => {
   })
 
   // use for the validation
+  // created regex object
   const regex = {
     username: /^[a-zA-Z0-9_]{3,15}$/,
     email: /^\S+@\S+\.\S+$/,
