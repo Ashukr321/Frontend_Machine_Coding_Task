@@ -26,7 +26,9 @@ Users can search products, filter by category, rating, and apply price range fil
 - [Live Url](https://frontend-machine-coding-task-x17r.vercel.app/)
 
 # 4. Client-Side Pagination React App
-
+```bash
+npm i @faker-js/faker
+```
 A simple React application that fetches posts from an API and displays them with client-side pagination.
 - [4.🛒 Client-Side Pagination React App](./_04_pagination_Large_ApiData_Client_side/README.md)
 - [Live Url](https://frontend-machine-coding-task-qduz.vercel.app/)

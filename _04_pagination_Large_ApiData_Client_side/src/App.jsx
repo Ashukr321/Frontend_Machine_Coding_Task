@@ -2,7 +2,8 @@
 // import { useEffect, useState } from 'react'
 // import fetchData from './services/userService';
 import './App.css'
-import PaginatedData from './components/PaginatedData'
+import PaginationV2 from './v2/PaginationV2'
+// import PaginatedData from './components/PaginatedData'
 
 // function App() {
 
@@ -102,7 +103,8 @@ import PaginatedData from './components/PaginatedData'
 function App() {
   return (
     <>
-      <PaginatedData />
+      {/* <PaginatedData /> */}
+      <PaginationV2 />
     </>
   )
 }

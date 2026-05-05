@@ -18,3 +18,10 @@ A simple React application that fetches posts from an API and displays them with
 - Modular code with API calls separated into a service file.
 - Basic error handling for API requests.
 - Pagination buttons fixed at bottom-right for easy access.
+
+
+for the creating the dummy data we can use npm i @faker-js/faker this package to create the fake data
+
+``` bash
+npm i @faker-js/faker
+``` 
