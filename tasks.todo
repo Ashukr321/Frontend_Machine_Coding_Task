@@ -1,0 +1,275 @@
+Machine Coding — Master Checklist (85 tasks):
+  Legend: ☐ = pending, toggle when done (VS Code "Todo+" extension: Ctrl+Enter / Alt+D)
+  Each task = Build (45 min, timed) + R1 revision (+5 days) + R2 revision (+10 days)
+  @dup = same/near-same task done earlier → revise old solution instead of rebuilding
+  Full day-by-day schedule with dates: plan-180-days.todo
+
+Main Machine Coding Tasks:
+  ☐ 01. Form Validation
+    ☐ R1 — Day 6 (Sat 18 Jul 2026)
+    ☐ R2 — Day 11 (Thu 23 Jul 2026)
+  ☐ 02. Todo App
+    ☐ R1 — Day 7 (Sun 19 Jul 2026)
+    ☐ R2 — Day 12 (Fri 24 Jul 2026)
+  ☐ 03. Search and Filter List
+    ☐ R1 — Day 8 (Mon 20 Jul 2026)
+    ☐ R2 — Day 13 (Sat 25 Jul 2026)
+  ☐ 04. Pagination (Large API Data - Client Side)
+    ☐ R1 — Day 9 (Tue 21 Jul 2026)
+    ☐ R2 — Day 14 (Sun 26 Jul 2026)
+  ☐ 05. Debouncing Search
+    ☐ R1 — Day 10 (Wed 22 Jul 2026)
+    ☐ R2 — Day 15 (Mon 27 Jul 2026)
+  ☐ 06. Throttle Search
+    ☐ R1 — Day 11 (Thu 23 Jul 2026)
+    ☐ R2 — Day 16 (Tue 28 Jul 2026)
+  ☐ 07. Sorting Features
+    ☐ R1 — Day 12 (Fri 24 Jul 2026)
+    ☐ R2 — Day 17 (Wed 29 Jul 2026)
+  ☐ 08. Persistent Counter App (Local Storage)
+    ☐ R1 — Day 13 (Sat 25 Jul 2026)
+    ☐ R2 — Day 18 (Thu 30 Jul 2026)
+  ☐ 09. Modal Open/Close Features
+    ☐ R1 — Day 14 (Sun 26 Jul 2026)
+    ☐ R2 — Day 19 (Fri 31 Jul 2026)
+  ☐ 10. Theme Toggle (Dark/Light Mode)
+    ☐ R1 — Day 15 (Mon 27 Jul 2026)
+    ☐ R2 — Day 20 (Sat 01 Aug 2026)
+  ☐ 11. Autocomplete Search Bar
+    ☐ R1 — Day 16 (Tue 28 Jul 2026)
+    ☐ R2 — Day 21 (Sun 02 Aug 2026)
+  ☐ 12. Progress Bar
+    ☐ R1 — Day 17 (Wed 29 Jul 2026)
+    ☐ R2 — Day 22 (Mon 03 Aug 2026)
+  ☐ 13. Move to Top
+    ☐ R1 — Day 18 (Thu 30 Jul 2026)
+    ☐ R2 — Day 23 (Tue 04 Aug 2026)
+  ☐ 14. Auto-focusing Form and Validation
+    ☐ R1 — Day 19 (Fri 31 Jul 2026)
+    ☐ R2 — Day 24 (Wed 05 Aug 2026)
+  ☐ 15. Tooltip Hover
+    ☐ R1 — Day 20 (Sat 01 Aug 2026)
+    ☐ R2 — Day 25 (Thu 06 Aug 2026)
+  ☐ 16. Live Clock
+    ☐ R1 — Day 21 (Sun 02 Aug 2026)
+    ☐ R2 — Day 26 (Fri 07 Aug 2026)
+  ☐ 17. Accordion
+    ☐ R1 — Day 22 (Mon 03 Aug 2026)
+    ☐ R2 — Day 27 (Sat 08 Aug 2026)
+  ☐ 18. Click to Clipboard
+    ☐ R1 — Day 23 (Tue 04 Aug 2026)
+    ☐ R2 — Day 28 (Sun 09 Aug 2026)
+  ☐ 19. Infinite Scroll Bar
+    ☐ R1 — Day 24 (Wed 05 Aug 2026)
+    ☐ R2 — Day 29 (Mon 10 Aug 2026)
+  ☐ 20. Image Carousel
+    ☐ R1 — Day 25 (Thu 06 Aug 2026)
+    ☐ R2 — Day 30 (Tue 11 Aug 2026)
+  ☐ 21. Drag and Drop Interaction
+    ☐ R1 — Day 26 (Fri 07 Aug 2026)
+    ☐ R2 — Day 31 (Wed 12 Aug 2026)
+  ☐ 22. Responsive Navbar
+    ☐ R1 — Day 27 (Sat 08 Aug 2026)
+    ☐ R2 — Day 32 (Thu 13 Aug 2026)
+  ☐ 23. Multi-Step Form
+    ☐ R1 — Day 28 (Sun 09 Aug 2026)
+    ☐ R2 — Day 33 (Fri 14 Aug 2026)
+  ☐ 24. OTP (One Time Password)
+    ☐ R1 — Day 29 (Mon 10 Aug 2026)
+    ☐ R2 — Day 34 (Sat 15 Aug 2026)
+  ☐ 25. React Toast Notifications
+    ☐ R1 — Day 30 (Tue 11 Aug 2026)
+    ☐ R2 — Day 35 (Sun 16 Aug 2026)
+  ☐ 26. Star Rating
+    ☐ R1 — Day 31 (Wed 12 Aug 2026)
+    ☐ R2 — Day 36 (Mon 17 Aug 2026)
+  ☐ 27. File Explorer
+    ☐ R1 — Day 32 (Thu 13 Aug 2026)
+    ☐ R2 — Day 37 (Tue 18 Aug 2026)
+  ☐ 28. Virtualized List
+    ☐ R1 — Day 33 (Fri 14 Aug 2026)
+    ☐ R2 — Day 38 (Wed 19 Aug 2026)
+  ☐ 29. Tab Components
+    ☐ R1 — Day 34 (Sat 15 Aug 2026)
+    ☐ R2 — Day 39 (Thu 20 Aug 2026)
+  ☐ 30. Traffic Light
+    ☐ R1 — Day 35 (Sun 16 Aug 2026)
+    ☐ R2 — Day 40 (Fri 21 Aug 2026)
+  ☐ 31. Like Button
+    ☐ R1 — Day 36 (Mon 17 Aug 2026)
+    ☐ R2 — Day 41 (Sat 22 Aug 2026)
+  ☐ 32. Calculator
+    ☐ R1 — Day 37 (Tue 18 Aug 2026)
+    ☐ R2 — Day 42 (Sun 23 Aug 2026)
+  ☐ 33. File Upload Preview
+    ☐ R1 — Day 38 (Wed 19 Aug 2026)
+    ☐ R2 — Day 43 (Mon 24 Aug 2026)
+  ☐ 34. Avatar Upload and Crop
+    ☐ R1 — Day 39 (Thu 20 Aug 2026)
+    ☐ R2 — Day 44 (Tue 25 Aug 2026)
+  ☐ 35. Data Table
+    ☐ R1 — Day 40 (Fri 21 Aug 2026)
+    ☐ R2 — Day 45 (Wed 26 Aug 2026)
+  ☐ 36. Responsive Layout System (Without Framework)
+    ☐ R1 — Day 41 (Sat 22 Aug 2026)
+    ☐ R2 — Day 46 (Thu 27 Aug 2026)
+  ☐ 37. Accessible Form System
+    ☐ R1 — Day 42 (Sun 23 Aug 2026)
+    ☐ R2 — Day 47 (Fri 28 Aug 2026)
+  ☐ 38. Multi-Step Form Validation & State Persistence
+    ☐ R1 — Day 43 (Mon 24 Aug 2026)
+    ☐ R2 — Day 48 (Sat 29 Aug 2026)
+  ☐ 39. Skeleton Loader
+    ☐ R1 — Day 44 (Tue 25 Aug 2026)
+    ☐ R2 — Day 49 (Sun 30 Aug 2026)
+  ☐ 40. Error Boundaries
+    ☐ R1 — Day 45 (Wed 26 Aug 2026)
+    ☐ R2 — Day 50 (Mon 31 Aug 2026)
+  ☐ 41. File Upload System (Progress & Retry)
+    ☐ R1 — Day 46 (Thu 27 Aug 2026)
+    ☐ R2 — Day 51 (Tue 01 Sep 2026)
+  ☐ 42. Toast and Notification Pattern
+    ☐ R1 — Day 47 (Fri 28 Aug 2026)
+    ☐ R2 — Day 52 (Wed 02 Sep 2026)
+  ☐ 43. Theme Switch (Light and Dark)
+    ☐ R1 — Day 48 (Sat 29 Aug 2026)
+    ☐ R2 — Day 53 (Thu 03 Sep 2026)
+  ☐ 44. Real-time Collaboration UI
+    ☐ R1 — Day 49 (Sun 30 Aug 2026)
+    ☐ R2 — Day 54 (Fri 04 Sep 2026)
+  ☐ 45. Role-based UI Rendering
+    ☐ R1 — Day 50 (Mon 31 Aug 2026)
+    ☐ R2 — Day 55 (Sat 05 Sep 2026)
+  ☐ 46. Complex Dashboard with Data State
+    ☐ R1 — Day 51 (Tue 01 Sep 2026)
+    ☐ R2 — Day 56 (Sun 06 Sep 2026)
+  ☐ 47. News Feed Infinite Scrolling
+    ☐ R1 — Day 52 (Wed 02 Sep 2026)
+    ☐ R2 — Day 57 (Mon 07 Sep 2026)
+  ☐ 48. Tab Components (Advanced)
+    ☐ R1 — Day 53 (Thu 03 Sep 2026)
+    ☐ R2 — Day 58 (Tue 08 Sep 2026)
+  ☐ 49. Chips Input
+    ☐ R1 — Day 54 (Fri 04 Sep 2026)
+    ☐ R2 — Day 59 (Wed 09 Sep 2026)
+  ☐ 50. Tree Folder Navigation
+    ☐ R1 — Day 55 (Sat 05 Sep 2026)
+    ☐ R2 — Day 60 (Thu 10 Sep 2026)
+  ☐ 51. Multi-level Comments View
+    ☐ R1 — Day 56 (Sun 06 Sep 2026)
+    ☐ R2 — Day 61 (Fri 11 Sep 2026)
+  ☐ 52. Kanban Board
+    ☐ R1 — Day 57 (Mon 07 Sep 2026)
+    ☐ R2 — Day 62 (Sat 12 Sep 2026)
+  ☐ 53. Email Client View (Email template)
+    ☐ R1 — Day 58 (Tue 08 Sep 2026)
+    ☐ R2 — Day 63 (Sun 13 Sep 2026)
+  ☐ 54. Drag and Drop
+    ☐ R1 — Day 59 (Wed 09 Sep 2026)
+    ☐ R2 — Day 64 (Mon 14 Sep 2026)
+  ☐ 55. Web Audio Player
+    ☐ R1 — Day 60 (Thu 10 Sep 2026)
+    ☐ R2 — Day 65 (Tue 15 Sep 2026)
+  ☐ 56. Browser History API
+    ☐ R1 — Day 61 (Fri 11 Sep 2026)
+    ☐ R2 — Day 66 (Wed 16 Sep 2026)
+  ☐ 57. Implement Custom Hooks
+    ☐ R1 — Day 62 (Sat 12 Sep 2026)
+    ☐ R2 — Day 67 (Thu 17 Sep 2026)
+
+Amazon:
+  ☐ 58. Custom implementation of the Promise API
+    ☐ R1 — Day 63 (Sun 13 Sep 2026)
+    ☐ R2 — Day 68 (Fri 18 Sep 2026)
+  ☐ 59. Implement custom reduce()
+    ☐ R1 — Day 64 (Mon 14 Sep 2026)
+    ☐ R2 — Day 69 (Sat 19 Sep 2026)
+  ☐ 60. Implement Auto-retry promises
+    ☐ R1 — Day 65 (Tue 15 Sep 2026)
+    ☐ R2 — Day 70 (Sun 20 Sep 2026)
+  ☐ 61. Implement Currying with Placeholders
+    ☐ R1 — Day 66 (Wed 16 Sep 2026)
+    ☐ R2 — Day 71 (Mon 21 Sep 2026)
+  ☐ 62. Implement lodash _.get()
+    ☐ R1 — Day 67 (Thu 17 Sep 2026)
+    ☐ R2 — Day 72 (Tue 22 Sep 2026)
+  ☐ 63. Implement Promise.all
+    ☐ R1 — Day 68 (Fri 18 Sep 2026)
+    ☐ R2 — Day 73 (Wed 23 Sep 2026)
+  ☐ 64. Implement Promise.allSettled
+    ☐ R1 — Day 69 (Sat 19 Sep 2026)
+    ☐ R2 — Day 74 (Thu 24 Sep 2026)
+
+Flipkart:
+  ☐ 65. Implement Auto-retry Promises  @dup(#60)
+    ☐ R1 — Day 70 (Sun 20 Sep 2026)
+    ☐ R2 — Day 75 (Fri 25 Sep 2026)
+  ☐ 66. Implement Currying with Placeholders  @dup(#61)
+    ☐ R1 — Day 71 (Mon 21 Sep 2026)
+    ☐ R2 — Day 76 (Sat 26 Sep 2026)
+  ☐ 67. Implement Custom Bind
+    ☐ R1 — Day 72 (Tue 22 Sep 2026)
+    ☐ R2 — Day 77 (Sun 27 Sep 2026)
+  ☐ 68. Implement Custom SetInterval
+    ☐ R1 — Day 73 (Wed 23 Sep 2026)
+    ☐ R2 — Day 78 (Mon 28 Sep 2026)
+  ☐ 69. Implement Debounce
+    ☐ R1 — Day 74 (Thu 24 Sep 2026)
+    ☐ R2 — Day 79 (Tue 29 Sep 2026)
+  ☐ 70. Implement Deep Flatten
+    ☐ R1 — Day 75 (Fri 25 Sep 2026)
+    ☐ R2 — Day 80 (Wed 30 Sep 2026)
+
+Google:
+  ☐ 71. Implement promises.finally
+    ☐ R1 — Day 76 (Sat 26 Sep 2026)
+    ☐ R2 — Day 81 (Thu 01 Oct 2026)
+  ☐ 72. Implement throttle
+    ☐ R1 — Day 77 (Sun 27 Sep 2026)
+    ☐ R2 — Day 82 (Fri 02 Oct 2026)
+  ☐ 73. Implement custom promises  @dup(#58)
+    ☐ R1 — Day 78 (Mon 28 Sep 2026)
+    ☐ R2 — Day 83 (Sat 03 Oct 2026)
+  ☐ 74. Promise Polyfills
+    ☐ R1 — Day 79 (Tue 29 Sep 2026)
+    ☐ R2 — Day 84 (Sun 04 Oct 2026)
+  ☐ 75. Rate Limiting
+    ☐ R1 — Day 80 (Wed 30 Sep 2026)
+    ☐ R2 — Day 85 (Mon 05 Oct 2026)
+
+Meta:
+  ☐ 76. Custom JSON Utilities
+    ☐ R1 — Day 81 (Thu 01 Oct 2026)
+    ☐ R2 — Day 86 (Tue 06 Oct 2026)
+  ☐ 77. Debounce  @dup(#69 #05)
+    ☐ R1 — Day 82 (Fri 02 Oct 2026)
+    ☐ R2 — Day 87 (Wed 07 Oct 2026)
+  ☐ 78. Event Emitter
+    ☐ R1 — Day 83 (Sat 03 Oct 2026)
+    ☐ R2 — Day 88 (Thu 08 Oct 2026)
+  ☐ 79. Performance: Implement caching mechanism
+    ☐ R1 — Day 84 (Sun 04 Oct 2026)
+    ☐ R2 — Day 89 (Fri 09 Oct 2026)
+  ☐ 80. Timer Management
+    ☐ R1 — Day 85 (Mon 05 Oct 2026)
+    ☐ R2 — Day 90 (Sat 10 Oct 2026)
+  ☐ 81. Virtual DOM
+    ☐ R1 — Day 86 (Tue 06 Oct 2026)
+    ☐ R2 — Day 91 (Sun 11 Oct 2026)
+
+Tekion:
+  ☐ 82. Implement currying  @dup(#61 basic)
+    ☐ R1 — Day 87 (Wed 07 Oct 2026)
+    ☐ R2 — Day 92 (Mon 12 Oct 2026)
+  ☐ 83. Implement deep clone
+    ☐ R1 — Day 88 (Thu 08 Oct 2026)
+    ☐ R2 — Day 93 (Tue 13 Oct 2026)
+  ☐ 84. Implement throttling  @dup(#72 #06)
+    ☐ R1 — Day 89 (Fri 09 Oct 2026)
+    ☐ R2 — Day 94 (Wed 14 Oct 2026)
+
+Misc:
+  ☐ 85. Password Generator
+    ☐ R1 — Day 90 (Sat 10 Oct 2026)
+    ☐ R2 — Day 95 (Thu 15 Oct 2026)
+

@@ -1,0 +1,577 @@
+180-Day Machine Coding Plan (90 min/day):
+  Start: Day 1 = Mon 13 Jul 2026 · End: Day 180 = Fri 08 Jan 2027
+  Daily: 45 min NEW machine coding (timed!) + 45 min REVISION
+  Revision rule: R1 = 5 days after build · R2 = 10 days after build
+  Phase 1 (Day 1-85):   build all 85 tasks, one per day
+  Phase 2 (Day 86-95):  no new tasks — clear remaining R1/R2 + redo weak tasks
+  Phase 3 (Day 96-180): ROUND 2 — rebuild all 85 from scratch, harder constraints
+                        (stricter 45 min limit, add a11y/edge cases/tests), same R1/R2 rule
+  Round-2 revisions of tasks #76-#85 fall after Day 180 — see optional Wrap-up (Day 181-190).
+
+PHASE 1 · Build (Day 1-85):
+  Day 001 · Mon 13 Jul 2026:
+    ☐ New 45m: #01 Form Validation
+    ☐ Rev 45m: — (use time for notes/tests on today's task)
+  Day 002 · Tue 14 Jul 2026:
+    ☐ New 45m: #02 Todo App
+    ☐ Rev 45m: — (use time for notes/tests on today's task)
+  Day 003 · Wed 15 Jul 2026:
+    ☐ New 45m: #03 Search and Filter List
+    ☐ Rev 45m: — (use time for notes/tests on today's task)
+  Day 004 · Thu 16 Jul 2026:
+    ☐ New 45m: #04 Pagination (Large API Data - Client Side)
+    ☐ Rev 45m: — (use time for notes/tests on today's task)
+  Day 005 · Fri 17 Jul 2026:
+    ☐ New 45m: #05 Debouncing Search
+    ☐ Rev 45m: — (use time for notes/tests on today's task)
+  Day 006 · Sat 18 Jul 2026:
+    ☐ New 45m: #06 Throttle Search
+    ☐ Rev 45m: R1 #01 Form Validation
+  Day 007 · Sun 19 Jul 2026:
+    ☐ New 45m: #07 Sorting Features
+    ☐ Rev 45m: R1 #02 Todo App
+  Day 008 · Mon 20 Jul 2026:
+    ☐ New 45m: #08 Persistent Counter App (Local Storage)
+    ☐ Rev 45m: R1 #03 Search and Filter List
+  Day 009 · Tue 21 Jul 2026:
+    ☐ New 45m: #09 Modal Open/Close Features
+    ☐ Rev 45m: R1 #04 Pagination (Large API Data - Client Side)
+  Day 010 · Wed 22 Jul 2026:
+    ☐ New 45m: #10 Theme Toggle (Dark/Light Mode)
+    ☐ Rev 45m: R1 #05 Debouncing Search
+  Day 011 · Thu 23 Jul 2026:
+    ☐ New 45m: #11 Autocomplete Search Bar
+    ☐ Rev 45m: R1 #06 Throttle Search + R2 #01 Form Validation
+  Day 012 · Fri 24 Jul 2026:
+    ☐ New 45m: #12 Progress Bar
+    ☐ Rev 45m: R1 #07 Sorting Features + R2 #02 Todo App
+  Day 013 · Sat 25 Jul 2026:
+    ☐ New 45m: #13 Move to Top
+    ☐ Rev 45m: R1 #08 Persistent Counter App (Local Storage) + R2 #03 Search and Filter List
+  Day 014 · Sun 26 Jul 2026:
+    ☐ New 45m: #14 Auto-focusing Form and Validation
+    ☐ Rev 45m: R1 #09 Modal Open/Close Features + R2 #04 Pagination (Large API Data - Client Side)
+  Day 015 · Mon 27 Jul 2026:
+    ☐ New 45m: #15 Tooltip Hover
+    ☐ Rev 45m: R1 #10 Theme Toggle (Dark/Light Mode) + R2 #05 Debouncing Search
+  Day 016 · Tue 28 Jul 2026:
+    ☐ New 45m: #16 Live Clock
+    ☐ Rev 45m: R1 #11 Autocomplete Search Bar + R2 #06 Throttle Search
+  Day 017 · Wed 29 Jul 2026:
+    ☐ New 45m: #17 Accordion
+    ☐ Rev 45m: R1 #12 Progress Bar + R2 #07 Sorting Features
+  Day 018 · Thu 30 Jul 2026:
+    ☐ New 45m: #18 Click to Clipboard
+    ☐ Rev 45m: R1 #13 Move to Top + R2 #08 Persistent Counter App (Local Storage)
+  Day 019 · Fri 31 Jul 2026:
+    ☐ New 45m: #19 Infinite Scroll Bar
+    ☐ Rev 45m: R1 #14 Auto-focusing Form and Validation + R2 #09 Modal Open/Close Features
+  Day 020 · Sat 01 Aug 2026:
+    ☐ New 45m: #20 Image Carousel
+    ☐ Rev 45m: R1 #15 Tooltip Hover + R2 #10 Theme Toggle (Dark/Light Mode)
+  Day 021 · Sun 02 Aug 2026:
+    ☐ New 45m: #21 Drag and Drop Interaction
+    ☐ Rev 45m: R1 #16 Live Clock + R2 #11 Autocomplete Search Bar
+  Day 022 · Mon 03 Aug 2026:
+    ☐ New 45m: #22 Responsive Navbar
+    ☐ Rev 45m: R1 #17 Accordion + R2 #12 Progress Bar
+  Day 023 · Tue 04 Aug 2026:
+    ☐ New 45m: #23 Multi-Step Form
+    ☐ Rev 45m: R1 #18 Click to Clipboard + R2 #13 Move to Top
+  Day 024 · Wed 05 Aug 2026:
+    ☐ New 45m: #24 OTP (One Time Password)
+    ☐ Rev 45m: R1 #19 Infinite Scroll Bar + R2 #14 Auto-focusing Form and Validation
+  Day 025 · Thu 06 Aug 2026:
+    ☐ New 45m: #25 React Toast Notifications
+    ☐ Rev 45m: R1 #20 Image Carousel + R2 #15 Tooltip Hover
+  Day 026 · Fri 07 Aug 2026:
+    ☐ New 45m: #26 Star Rating
+    ☐ Rev 45m: R1 #21 Drag and Drop Interaction + R2 #16 Live Clock
+  Day 027 · Sat 08 Aug 2026:
+    ☐ New 45m: #27 File Explorer
+    ☐ Rev 45m: R1 #22 Responsive Navbar + R2 #17 Accordion
+  Day 028 · Sun 09 Aug 2026:
+    ☐ New 45m: #28 Virtualized List
+    ☐ Rev 45m: R1 #23 Multi-Step Form + R2 #18 Click to Clipboard
+  Day 029 · Mon 10 Aug 2026:
+    ☐ New 45m: #29 Tab Components
+    ☐ Rev 45m: R1 #24 OTP (One Time Password) + R2 #19 Infinite Scroll Bar
+  Day 030 · Tue 11 Aug 2026:
+    ☐ New 45m: #30 Traffic Light
+    ☐ Rev 45m: R1 #25 React Toast Notifications + R2 #20 Image Carousel
+  Day 031 · Wed 12 Aug 2026:
+    ☐ New 45m: #31 Like Button
+    ☐ Rev 45m: R1 #26 Star Rating + R2 #21 Drag and Drop Interaction
+  Day 032 · Thu 13 Aug 2026:
+    ☐ New 45m: #32 Calculator
+    ☐ Rev 45m: R1 #27 File Explorer + R2 #22 Responsive Navbar
+  Day 033 · Fri 14 Aug 2026:
+    ☐ New 45m: #33 File Upload Preview
+    ☐ Rev 45m: R1 #28 Virtualized List + R2 #23 Multi-Step Form
+  Day 034 · Sat 15 Aug 2026:
+    ☐ New 45m: #34 Avatar Upload and Crop
+    ☐ Rev 45m: R1 #29 Tab Components + R2 #24 OTP (One Time Password)
+  Day 035 · Sun 16 Aug 2026:
+    ☐ New 45m: #35 Data Table
+    ☐ Rev 45m: R1 #30 Traffic Light + R2 #25 React Toast Notifications
+  Day 036 · Mon 17 Aug 2026:
+    ☐ New 45m: #36 Responsive Layout System (Without Framework)
+    ☐ Rev 45m: R1 #31 Like Button + R2 #26 Star Rating
+  Day 037 · Tue 18 Aug 2026:
+    ☐ New 45m: #37 Accessible Form System
+    ☐ Rev 45m: R1 #32 Calculator + R2 #27 File Explorer
+  Day 038 · Wed 19 Aug 2026:
+    ☐ New 45m: #38 Multi-Step Form Validation & State Persistence
+    ☐ Rev 45m: R1 #33 File Upload Preview + R2 #28 Virtualized List
+  Day 039 · Thu 20 Aug 2026:
+    ☐ New 45m: #39 Skeleton Loader
+    ☐ Rev 45m: R1 #34 Avatar Upload and Crop + R2 #29 Tab Components
+  Day 040 · Fri 21 Aug 2026:
+    ☐ New 45m: #40 Error Boundaries
+    ☐ Rev 45m: R1 #35 Data Table + R2 #30 Traffic Light
+  Day 041 · Sat 22 Aug 2026:
+    ☐ New 45m: #41 File Upload System (Progress & Retry)
+    ☐ Rev 45m: R1 #36 Responsive Layout System (Without Framework) + R2 #31 Like Button
+  Day 042 · Sun 23 Aug 2026:
+    ☐ New 45m: #42 Toast and Notification Pattern
+    ☐ Rev 45m: R1 #37 Accessible Form System + R2 #32 Calculator
+  Day 043 · Mon 24 Aug 2026:
+    ☐ New 45m: #43 Theme Switch (Light and Dark)
+    ☐ Rev 45m: R1 #38 Multi-Step Form Validation & State Persistence + R2 #33 File Upload Preview
+  Day 044 · Tue 25 Aug 2026:
+    ☐ New 45m: #44 Real-time Collaboration UI
+    ☐ Rev 45m: R1 #39 Skeleton Loader + R2 #34 Avatar Upload and Crop
+  Day 045 · Wed 26 Aug 2026:
+    ☐ New 45m: #45 Role-based UI Rendering
+    ☐ Rev 45m: R1 #40 Error Boundaries + R2 #35 Data Table
+  Day 046 · Thu 27 Aug 2026:
+    ☐ New 45m: #46 Complex Dashboard with Data State
+    ☐ Rev 45m: R1 #41 File Upload System (Progress & Retry) + R2 #36 Responsive Layout System (Without Framework)
+  Day 047 · Fri 28 Aug 2026:
+    ☐ New 45m: #47 News Feed Infinite Scrolling
+    ☐ Rev 45m: R1 #42 Toast and Notification Pattern + R2 #37 Accessible Form System
+  Day 048 · Sat 29 Aug 2026:
+    ☐ New 45m: #48 Tab Components (Advanced)
+    ☐ Rev 45m: R1 #43 Theme Switch (Light and Dark) + R2 #38 Multi-Step Form Validation & State Persistence
+  Day 049 · Sun 30 Aug 2026:
+    ☐ New 45m: #49 Chips Input
+    ☐ Rev 45m: R1 #44 Real-time Collaboration UI + R2 #39 Skeleton Loader
+  Day 050 · Mon 31 Aug 2026:
+    ☐ New 45m: #50 Tree Folder Navigation
+    ☐ Rev 45m: R1 #45 Role-based UI Rendering + R2 #40 Error Boundaries
+  Day 051 · Tue 01 Sep 2026:
+    ☐ New 45m: #51 Multi-level Comments View
+    ☐ Rev 45m: R1 #46 Complex Dashboard with Data State + R2 #41 File Upload System (Progress & Retry)
+  Day 052 · Wed 02 Sep 2026:
+    ☐ New 45m: #52 Kanban Board
+    ☐ Rev 45m: R1 #47 News Feed Infinite Scrolling + R2 #42 Toast and Notification Pattern
+  Day 053 · Thu 03 Sep 2026:
+    ☐ New 45m: #53 Email Client View (Email template)
+    ☐ Rev 45m: R1 #48 Tab Components (Advanced) + R2 #43 Theme Switch (Light and Dark)
+  Day 054 · Fri 04 Sep 2026:
+    ☐ New 45m: #54 Drag and Drop
+    ☐ Rev 45m: R1 #49 Chips Input + R2 #44 Real-time Collaboration UI
+  Day 055 · Sat 05 Sep 2026:
+    ☐ New 45m: #55 Web Audio Player
+    ☐ Rev 45m: R1 #50 Tree Folder Navigation + R2 #45 Role-based UI Rendering
+  Day 056 · Sun 06 Sep 2026:
+    ☐ New 45m: #56 Browser History API
+    ☐ Rev 45m: R1 #51 Multi-level Comments View + R2 #46 Complex Dashboard with Data State
+  Day 057 · Mon 07 Sep 2026:
+    ☐ New 45m: #57 Implement Custom Hooks
+    ☐ Rev 45m: R1 #52 Kanban Board + R2 #47 News Feed Infinite Scrolling
+  Day 058 · Tue 08 Sep 2026:
+    ☐ New 45m: #58 Custom implementation of the Promise API
+    ☐ Rev 45m: R1 #53 Email Client View (Email template) + R2 #48 Tab Components (Advanced)
+  Day 059 · Wed 09 Sep 2026:
+    ☐ New 45m: #59 Implement custom reduce()
+    ☐ Rev 45m: R1 #54 Drag and Drop + R2 #49 Chips Input
+  Day 060 · Thu 10 Sep 2026:
+    ☐ New 45m: #60 Implement Auto-retry promises
+    ☐ Rev 45m: R1 #55 Web Audio Player + R2 #50 Tree Folder Navigation
+  Day 061 · Fri 11 Sep 2026:
+    ☐ New 45m: #61 Implement Currying with Placeholders
+    ☐ Rev 45m: R1 #56 Browser History API + R2 #51 Multi-level Comments View
+  Day 062 · Sat 12 Sep 2026:
+    ☐ New 45m: #62 Implement lodash _.get()
+    ☐ Rev 45m: R1 #57 Implement Custom Hooks + R2 #52 Kanban Board
+  Day 063 · Sun 13 Sep 2026:
+    ☐ New 45m: #63 Implement Promise.all
+    ☐ Rev 45m: R1 #58 Custom implementation of the Promise API + R2 #53 Email Client View (Email template)
+  Day 064 · Mon 14 Sep 2026:
+    ☐ New 45m: #64 Implement Promise.allSettled
+    ☐ Rev 45m: R1 #59 Implement custom reduce() + R2 #54 Drag and Drop
+  Day 065 · Tue 15 Sep 2026:
+    ☐ New 45m: #65 Implement Auto-retry Promises
+    ☐ Rev 45m: R1 #60 Implement Auto-retry promises + R2 #55 Web Audio Player
+  Day 066 · Wed 16 Sep 2026:
+    ☐ New 45m: #66 Implement Currying with Placeholders
+    ☐ Rev 45m: R1 #61 Implement Currying with Placeholders + R2 #56 Browser History API
+  Day 067 · Thu 17 Sep 2026:
+    ☐ New 45m: #67 Implement Custom Bind
+    ☐ Rev 45m: R1 #62 Implement lodash _.get() + R2 #57 Implement Custom Hooks
+  Day 068 · Fri 18 Sep 2026:
+    ☐ New 45m: #68 Implement Custom SetInterval
+    ☐ Rev 45m: R1 #63 Implement Promise.all + R2 #58 Custom implementation of the Promise API
+  Day 069 · Sat 19 Sep 2026:
+    ☐ New 45m: #69 Implement Debounce
+    ☐ Rev 45m: R1 #64 Implement Promise.allSettled + R2 #59 Implement custom reduce()
+  Day 070 · Sun 20 Sep 2026:
+    ☐ New 45m: #70 Implement Deep Flatten
+    ☐ Rev 45m: R1 #65 Implement Auto-retry Promises + R2 #60 Implement Auto-retry promises
+  Day 071 · Mon 21 Sep 2026:
+    ☐ New 45m: #71 Implement promises.finally
+    ☐ Rev 45m: R1 #66 Implement Currying with Placeholders + R2 #61 Implement Currying with Placeholders
+  Day 072 · Tue 22 Sep 2026:
+    ☐ New 45m: #72 Implement throttle
+    ☐ Rev 45m: R1 #67 Implement Custom Bind + R2 #62 Implement lodash _.get()
+  Day 073 · Wed 23 Sep 2026:
+    ☐ New 45m: #73 Implement custom promises
+    ☐ Rev 45m: R1 #68 Implement Custom SetInterval + R2 #63 Implement Promise.all
+  Day 074 · Thu 24 Sep 2026:
+    ☐ New 45m: #74 Promise Polyfills
+    ☐ Rev 45m: R1 #69 Implement Debounce + R2 #64 Implement Promise.allSettled
+  Day 075 · Fri 25 Sep 2026:
+    ☐ New 45m: #75 Rate Limiting
+    ☐ Rev 45m: R1 #70 Implement Deep Flatten + R2 #65 Implement Auto-retry Promises
+  Day 076 · Sat 26 Sep 2026:
+    ☐ New 45m: #76 Custom JSON Utilities
+    ☐ Rev 45m: R1 #71 Implement promises.finally + R2 #66 Implement Currying with Placeholders
+  Day 077 · Sun 27 Sep 2026:
+    ☐ New 45m: #77 Debounce
+    ☐ Rev 45m: R1 #72 Implement throttle + R2 #67 Implement Custom Bind
+  Day 078 · Mon 28 Sep 2026:
+    ☐ New 45m: #78 Event Emitter
+    ☐ Rev 45m: R1 #73 Implement custom promises + R2 #68 Implement Custom SetInterval
+  Day 079 · Tue 29 Sep 2026:
+    ☐ New 45m: #79 Performance: Implement caching mechanism
+    ☐ Rev 45m: R1 #74 Promise Polyfills + R2 #69 Implement Debounce
+  Day 080 · Wed 30 Sep 2026:
+    ☐ New 45m: #80 Timer Management
+    ☐ Rev 45m: R1 #75 Rate Limiting + R2 #70 Implement Deep Flatten
+  Day 081 · Thu 01 Oct 2026:
+    ☐ New 45m: #81 Virtual DOM
+    ☐ Rev 45m: R1 #76 Custom JSON Utilities + R2 #71 Implement promises.finally
+  Day 082 · Fri 02 Oct 2026:
+    ☐ New 45m: #82 Implement currying
+    ☐ Rev 45m: R1 #77 Debounce + R2 #72 Implement throttle
+  Day 083 · Sat 03 Oct 2026:
+    ☐ New 45m: #83 Implement deep clone
+    ☐ Rev 45m: R1 #78 Event Emitter + R2 #73 Implement custom promises
+  Day 084 · Sun 04 Oct 2026:
+    ☐ New 45m: #84 Implement throttling
+    ☐ Rev 45m: R1 #79 Performance: Implement caching mechanism + R2 #74 Promise Polyfills
+  Day 085 · Mon 05 Oct 2026:
+    ☐ New 45m: #85 Password Generator
+    ☐ Rev 45m: R1 #80 Timer Management + R2 #75 Rate Limiting
+
+PHASE 2 · Consolidation (Day 86-95):
+  Day 086 · Tue 06 Oct 2026:
+    ☐ Rev 45m: R1 #81 Virtual DOM + R2 #76 Custom JSON Utilities
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 087 · Wed 07 Oct 2026:
+    ☐ Rev 45m: R1 #82 Implement currying + R2 #77 Debounce
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 088 · Thu 08 Oct 2026:
+    ☐ Rev 45m: R1 #83 Implement deep clone + R2 #78 Event Emitter
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 089 · Fri 09 Oct 2026:
+    ☐ Rev 45m: R1 #84 Implement throttling + R2 #79 Performance: Implement caching mechanism
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 090 · Sat 10 Oct 2026:
+    ☐ Rev 45m: R1 #85 Password Generator + R2 #80 Timer Management
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 091 · Sun 11 Oct 2026:
+    ☐ Rev 45m: R2 #81 Virtual DOM
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 092 · Mon 12 Oct 2026:
+    ☐ Rev 45m: R2 #82 Implement currying
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 093 · Tue 13 Oct 2026:
+    ☐ Rev 45m: R2 #83 Implement deep clone
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 094 · Wed 14 Oct 2026:
+    ☐ Rev 45m: R2 #84 Implement throttling
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+  Day 095 · Thu 15 Oct 2026:
+    ☐ Rev 45m: R2 #85 Password Generator
+    ☐ Deep 45m: redo 1 weak task from Phase 1 (your pick) under strict timer
+
+PHASE 3 · Round 2 (Day 96-180):
+  Day 096 · Fri 16 Oct 2026:
+    ☐ New 45m: ROUND-2 #01 Form Validation (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: —
+  Day 097 · Sat 17 Oct 2026:
+    ☐ New 45m: ROUND-2 #02 Todo App (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: —
+  Day 098 · Sun 18 Oct 2026:
+    ☐ New 45m: ROUND-2 #03 Search and Filter List (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: —
+  Day 099 · Mon 19 Oct 2026:
+    ☐ New 45m: ROUND-2 #04 Pagination (Large API Data - Client Side) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: —
+  Day 100 · Tue 20 Oct 2026:
+    ☐ New 45m: ROUND-2 #05 Debouncing Search (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: —
+  Day 101 · Wed 21 Oct 2026:
+    ☐ New 45m: ROUND-2 #06 Throttle Search (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #01 Form Validation
+  Day 102 · Thu 22 Oct 2026:
+    ☐ New 45m: ROUND-2 #07 Sorting Features (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #02 Todo App
+  Day 103 · Fri 23 Oct 2026:
+    ☐ New 45m: ROUND-2 #08 Persistent Counter App (Local Storage) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #03 Search and Filter List
+  Day 104 · Sat 24 Oct 2026:
+    ☐ New 45m: ROUND-2 #09 Modal Open/Close Features (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #04 Pagination (Large API Data - Client Side)
+  Day 105 · Sun 25 Oct 2026:
+    ☐ New 45m: ROUND-2 #10 Theme Toggle (Dark/Light Mode) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #05 Debouncing Search
+  Day 106 · Mon 26 Oct 2026:
+    ☐ New 45m: ROUND-2 #11 Autocomplete Search Bar (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #06 Throttle Search + R2 ROUND-2 #01 Form Validation
+  Day 107 · Tue 27 Oct 2026:
+    ☐ New 45m: ROUND-2 #12 Progress Bar (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #07 Sorting Features + R2 ROUND-2 #02 Todo App
+  Day 108 · Wed 28 Oct 2026:
+    ☐ New 45m: ROUND-2 #13 Move to Top (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #08 Persistent Counter App (Local Storage) + R2 ROUND-2 #03 Search and Filter List
+  Day 109 · Thu 29 Oct 2026:
+    ☐ New 45m: ROUND-2 #14 Auto-focusing Form and Validation (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #09 Modal Open/Close Features + R2 ROUND-2 #04 Pagination (Large API Data - Client Side)
+  Day 110 · Fri 30 Oct 2026:
+    ☐ New 45m: ROUND-2 #15 Tooltip Hover (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #10 Theme Toggle (Dark/Light Mode) + R2 ROUND-2 #05 Debouncing Search
+  Day 111 · Sat 31 Oct 2026:
+    ☐ New 45m: ROUND-2 #16 Live Clock (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #11 Autocomplete Search Bar + R2 ROUND-2 #06 Throttle Search
+  Day 112 · Sun 01 Nov 2026:
+    ☐ New 45m: ROUND-2 #17 Accordion (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #12 Progress Bar + R2 ROUND-2 #07 Sorting Features
+  Day 113 · Mon 02 Nov 2026:
+    ☐ New 45m: ROUND-2 #18 Click to Clipboard (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #13 Move to Top + R2 ROUND-2 #08 Persistent Counter App (Local Storage)
+  Day 114 · Tue 03 Nov 2026:
+    ☐ New 45m: ROUND-2 #19 Infinite Scroll Bar (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #14 Auto-focusing Form and Validation + R2 ROUND-2 #09 Modal Open/Close Features
+  Day 115 · Wed 04 Nov 2026:
+    ☐ New 45m: ROUND-2 #20 Image Carousel (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #15 Tooltip Hover + R2 ROUND-2 #10 Theme Toggle (Dark/Light Mode)
+  Day 116 · Thu 05 Nov 2026:
+    ☐ New 45m: ROUND-2 #21 Drag and Drop Interaction (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #16 Live Clock + R2 ROUND-2 #11 Autocomplete Search Bar
+  Day 117 · Fri 06 Nov 2026:
+    ☐ New 45m: ROUND-2 #22 Responsive Navbar (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #17 Accordion + R2 ROUND-2 #12 Progress Bar
+  Day 118 · Sat 07 Nov 2026:
+    ☐ New 45m: ROUND-2 #23 Multi-Step Form (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #18 Click to Clipboard + R2 ROUND-2 #13 Move to Top
+  Day 119 · Sun 08 Nov 2026:
+    ☐ New 45m: ROUND-2 #24 OTP (One Time Password) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #19 Infinite Scroll Bar + R2 ROUND-2 #14 Auto-focusing Form and Validation
+  Day 120 · Mon 09 Nov 2026:
+    ☐ New 45m: ROUND-2 #25 React Toast Notifications (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #20 Image Carousel + R2 ROUND-2 #15 Tooltip Hover
+  Day 121 · Tue 10 Nov 2026:
+    ☐ New 45m: ROUND-2 #26 Star Rating (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #21 Drag and Drop Interaction + R2 ROUND-2 #16 Live Clock
+  Day 122 · Wed 11 Nov 2026:
+    ☐ New 45m: ROUND-2 #27 File Explorer (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #22 Responsive Navbar + R2 ROUND-2 #17 Accordion
+  Day 123 · Thu 12 Nov 2026:
+    ☐ New 45m: ROUND-2 #28 Virtualized List (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #23 Multi-Step Form + R2 ROUND-2 #18 Click to Clipboard
+  Day 124 · Fri 13 Nov 2026:
+    ☐ New 45m: ROUND-2 #29 Tab Components (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #24 OTP (One Time Password) + R2 ROUND-2 #19 Infinite Scroll Bar
+  Day 125 · Sat 14 Nov 2026:
+    ☐ New 45m: ROUND-2 #30 Traffic Light (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #25 React Toast Notifications + R2 ROUND-2 #20 Image Carousel
+  Day 126 · Sun 15 Nov 2026:
+    ☐ New 45m: ROUND-2 #31 Like Button (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #26 Star Rating + R2 ROUND-2 #21 Drag and Drop Interaction
+  Day 127 · Mon 16 Nov 2026:
+    ☐ New 45m: ROUND-2 #32 Calculator (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #27 File Explorer + R2 ROUND-2 #22 Responsive Navbar
+  Day 128 · Tue 17 Nov 2026:
+    ☐ New 45m: ROUND-2 #33 File Upload Preview (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #28 Virtualized List + R2 ROUND-2 #23 Multi-Step Form
+  Day 129 · Wed 18 Nov 2026:
+    ☐ New 45m: ROUND-2 #34 Avatar Upload and Crop (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #29 Tab Components + R2 ROUND-2 #24 OTP (One Time Password)
+  Day 130 · Thu 19 Nov 2026:
+    ☐ New 45m: ROUND-2 #35 Data Table (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #30 Traffic Light + R2 ROUND-2 #25 React Toast Notifications
+  Day 131 · Fri 20 Nov 2026:
+    ☐ New 45m: ROUND-2 #36 Responsive Layout System (Without Framework) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #31 Like Button + R2 ROUND-2 #26 Star Rating
+  Day 132 · Sat 21 Nov 2026:
+    ☐ New 45m: ROUND-2 #37 Accessible Form System (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #32 Calculator + R2 ROUND-2 #27 File Explorer
+  Day 133 · Sun 22 Nov 2026:
+    ☐ New 45m: ROUND-2 #38 Multi-Step Form Validation & State Persistence (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #33 File Upload Preview + R2 ROUND-2 #28 Virtualized List
+  Day 134 · Mon 23 Nov 2026:
+    ☐ New 45m: ROUND-2 #39 Skeleton Loader (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #34 Avatar Upload and Crop + R2 ROUND-2 #29 Tab Components
+  Day 135 · Tue 24 Nov 2026:
+    ☐ New 45m: ROUND-2 #40 Error Boundaries (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #35 Data Table + R2 ROUND-2 #30 Traffic Light
+  Day 136 · Wed 25 Nov 2026:
+    ☐ New 45m: ROUND-2 #41 File Upload System (Progress & Retry) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #36 Responsive Layout System (Without Framework) + R2 ROUND-2 #31 Like Button
+  Day 137 · Thu 26 Nov 2026:
+    ☐ New 45m: ROUND-2 #42 Toast and Notification Pattern (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #37 Accessible Form System + R2 ROUND-2 #32 Calculator
+  Day 138 · Fri 27 Nov 2026:
+    ☐ New 45m: ROUND-2 #43 Theme Switch (Light and Dark) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #38 Multi-Step Form Validation & State Persistence + R2 ROUND-2 #33 File Upload Preview
+  Day 139 · Sat 28 Nov 2026:
+    ☐ New 45m: ROUND-2 #44 Real-time Collaboration UI (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #39 Skeleton Loader + R2 ROUND-2 #34 Avatar Upload and Crop
+  Day 140 · Sun 29 Nov 2026:
+    ☐ New 45m: ROUND-2 #45 Role-based UI Rendering (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #40 Error Boundaries + R2 ROUND-2 #35 Data Table
+  Day 141 · Mon 30 Nov 2026:
+    ☐ New 45m: ROUND-2 #46 Complex Dashboard with Data State (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #41 File Upload System (Progress & Retry) + R2 ROUND-2 #36 Responsive Layout System (Without Framework)
+  Day 142 · Tue 01 Dec 2026:
+    ☐ New 45m: ROUND-2 #47 News Feed Infinite Scrolling (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #42 Toast and Notification Pattern + R2 ROUND-2 #37 Accessible Form System
+  Day 143 · Wed 02 Dec 2026:
+    ☐ New 45m: ROUND-2 #48 Tab Components (Advanced) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #43 Theme Switch (Light and Dark) + R2 ROUND-2 #38 Multi-Step Form Validation & State Persistence
+  Day 144 · Thu 03 Dec 2026:
+    ☐ New 45m: ROUND-2 #49 Chips Input (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #44 Real-time Collaboration UI + R2 ROUND-2 #39 Skeleton Loader
+  Day 145 · Fri 04 Dec 2026:
+    ☐ New 45m: ROUND-2 #50 Tree Folder Navigation (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #45 Role-based UI Rendering + R2 ROUND-2 #40 Error Boundaries
+  Day 146 · Sat 05 Dec 2026:
+    ☐ New 45m: ROUND-2 #51 Multi-level Comments View (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #46 Complex Dashboard with Data State + R2 ROUND-2 #41 File Upload System (Progress & Retry)
+  Day 147 · Sun 06 Dec 2026:
+    ☐ New 45m: ROUND-2 #52 Kanban Board (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #47 News Feed Infinite Scrolling + R2 ROUND-2 #42 Toast and Notification Pattern
+  Day 148 · Mon 07 Dec 2026:
+    ☐ New 45m: ROUND-2 #53 Email Client View (Email template) (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #48 Tab Components (Advanced) + R2 ROUND-2 #43 Theme Switch (Light and Dark)
+  Day 149 · Tue 08 Dec 2026:
+    ☐ New 45m: ROUND-2 #54 Drag and Drop (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #49 Chips Input + R2 ROUND-2 #44 Real-time Collaboration UI
+  Day 150 · Wed 09 Dec 2026:
+    ☐ New 45m: ROUND-2 #55 Web Audio Player (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #50 Tree Folder Navigation + R2 ROUND-2 #45 Role-based UI Rendering
+  Day 151 · Thu 10 Dec 2026:
+    ☐ New 45m: ROUND-2 #56 Browser History API (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #51 Multi-level Comments View + R2 ROUND-2 #46 Complex Dashboard with Data State
+  Day 152 · Fri 11 Dec 2026:
+    ☐ New 45m: ROUND-2 #57 Implement Custom Hooks (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #52 Kanban Board + R2 ROUND-2 #47 News Feed Infinite Scrolling
+  Day 153 · Sat 12 Dec 2026:
+    ☐ New 45m: ROUND-2 #58 Custom implementation of the Promise API (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #53 Email Client View (Email template) + R2 ROUND-2 #48 Tab Components (Advanced)
+  Day 154 · Sun 13 Dec 2026:
+    ☐ New 45m: ROUND-2 #59 Implement custom reduce() (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #54 Drag and Drop + R2 ROUND-2 #49 Chips Input
+  Day 155 · Mon 14 Dec 2026:
+    ☐ New 45m: ROUND-2 #60 Implement Auto-retry promises (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #55 Web Audio Player + R2 ROUND-2 #50 Tree Folder Navigation
+  Day 156 · Tue 15 Dec 2026:
+    ☐ New 45m: ROUND-2 #61 Implement Currying with Placeholders (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #56 Browser History API + R2 ROUND-2 #51 Multi-level Comments View
+  Day 157 · Wed 16 Dec 2026:
+    ☐ New 45m: ROUND-2 #62 Implement lodash _.get() (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #57 Implement Custom Hooks + R2 ROUND-2 #52 Kanban Board
+  Day 158 · Thu 17 Dec 2026:
+    ☐ New 45m: ROUND-2 #63 Implement Promise.all (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #58 Custom implementation of the Promise API + R2 ROUND-2 #53 Email Client View (Email template)
+  Day 159 · Fri 18 Dec 2026:
+    ☐ New 45m: ROUND-2 #64 Implement Promise.allSettled (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #59 Implement custom reduce() + R2 ROUND-2 #54 Drag and Drop
+  Day 160 · Sat 19 Dec 2026:
+    ☐ New 45m: ROUND-2 #65 Implement Auto-retry Promises (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #60 Implement Auto-retry promises + R2 ROUND-2 #55 Web Audio Player
+  Day 161 · Sun 20 Dec 2026:
+    ☐ New 45m: ROUND-2 #66 Implement Currying with Placeholders (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #61 Implement Currying with Placeholders + R2 ROUND-2 #56 Browser History API
+  Day 162 · Mon 21 Dec 2026:
+    ☐ New 45m: ROUND-2 #67 Implement Custom Bind (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #62 Implement lodash _.get() + R2 ROUND-2 #57 Implement Custom Hooks
+  Day 163 · Tue 22 Dec 2026:
+    ☐ New 45m: ROUND-2 #68 Implement Custom SetInterval (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #63 Implement Promise.all + R2 ROUND-2 #58 Custom implementation of the Promise API
+  Day 164 · Wed 23 Dec 2026:
+    ☐ New 45m: ROUND-2 #69 Implement Debounce (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #64 Implement Promise.allSettled + R2 ROUND-2 #59 Implement custom reduce()
+  Day 165 · Thu 24 Dec 2026:
+    ☐ New 45m: ROUND-2 #70 Implement Deep Flatten (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #65 Implement Auto-retry Promises + R2 ROUND-2 #60 Implement Auto-retry promises
+  Day 166 · Fri 25 Dec 2026:
+    ☐ New 45m: ROUND-2 #71 Implement promises.finally (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #66 Implement Currying with Placeholders + R2 ROUND-2 #61 Implement Currying with Placeholders
+  Day 167 · Sat 26 Dec 2026:
+    ☐ New 45m: ROUND-2 #72 Implement throttle (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #67 Implement Custom Bind + R2 ROUND-2 #62 Implement lodash _.get()
+  Day 168 · Sun 27 Dec 2026:
+    ☐ New 45m: ROUND-2 #73 Implement custom promises (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #68 Implement Custom SetInterval + R2 ROUND-2 #63 Implement Promise.all
+  Day 169 · Mon 28 Dec 2026:
+    ☐ New 45m: ROUND-2 #74 Promise Polyfills (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #69 Implement Debounce + R2 ROUND-2 #64 Implement Promise.allSettled
+  Day 170 · Tue 29 Dec 2026:
+    ☐ New 45m: ROUND-2 #75 Rate Limiting (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #70 Implement Deep Flatten + R2 ROUND-2 #65 Implement Auto-retry Promises
+  Day 171 · Wed 30 Dec 2026:
+    ☐ New 45m: ROUND-2 #76 Custom JSON Utilities (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #71 Implement promises.finally + R2 ROUND-2 #66 Implement Currying with Placeholders
+  Day 172 · Thu 31 Dec 2026:
+    ☐ New 45m: ROUND-2 #77 Debounce (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #72 Implement throttle + R2 ROUND-2 #67 Implement Custom Bind
+  Day 173 · Fri 01 Jan 2027:
+    ☐ New 45m: ROUND-2 #78 Event Emitter (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #73 Implement custom promises + R2 ROUND-2 #68 Implement Custom SetInterval
+  Day 174 · Sat 02 Jan 2027:
+    ☐ New 45m: ROUND-2 #79 Performance: Implement caching mechanism (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #74 Promise Polyfills + R2 ROUND-2 #69 Implement Debounce
+  Day 175 · Sun 03 Jan 2027:
+    ☐ New 45m: ROUND-2 #80 Timer Management (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #75 Rate Limiting + R2 ROUND-2 #70 Implement Deep Flatten
+  Day 176 · Mon 04 Jan 2027:
+    ☐ New 45m: ROUND-2 #81 Virtual DOM (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #76 Custom JSON Utilities + R2 ROUND-2 #71 Implement promises.finally
+  Day 177 · Tue 05 Jan 2027:
+    ☐ New 45m: ROUND-2 #82 Implement currying (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #77 Debounce + R2 ROUND-2 #72 Implement throttle
+  Day 178 · Wed 06 Jan 2027:
+    ☐ New 45m: ROUND-2 #83 Implement deep clone (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #78 Event Emitter + R2 ROUND-2 #73 Implement custom promises
+  Day 179 · Thu 07 Jan 2027:
+    ☐ New 45m: ROUND-2 #84 Implement throttling (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #79 Performance: Implement caching mechanism + R2 ROUND-2 #74 Promise Polyfills
+  Day 180 · Fri 08 Jan 2027:
+    ☐ New 45m: ROUND-2 #85 Password Generator (harder: strict timer + edge cases + a11y)
+    ☐ Rev 45m: R1 ROUND-2 #80 Timer Management + R2 ROUND-2 #75 Rate Limiting
+
+WRAP-UP · optional (Day 181-190) — remaining Round-2 revisions:
+  Day 181 · Sat 09 Jan 2027:
+    ☐ Rev 45m: R1 ROUND-2 #81 Virtual DOM + R2 ROUND-2 #76 Custom JSON Utilities
+  Day 182 · Sun 10 Jan 2027:
+    ☐ Rev 45m: R1 ROUND-2 #82 Implement currying + R2 ROUND-2 #77 Debounce
+  Day 183 · Mon 11 Jan 2027:
+    ☐ Rev 45m: R1 ROUND-2 #83 Implement deep clone + R2 ROUND-2 #78 Event Emitter
+  Day 184 · Tue 12 Jan 2027:
+    ☐ Rev 45m: R1 ROUND-2 #84 Implement throttling + R2 ROUND-2 #79 Performance: Implement caching mechanism
+  Day 185 · Wed 13 Jan 2027:
+    ☐ Rev 45m: R1 ROUND-2 #85 Password Generator + R2 ROUND-2 #80 Timer Management
+  Day 186 · Thu 14 Jan 2027:
+    ☐ Rev 45m: R2 ROUND-2 #81 Virtual DOM
+  Day 187 · Fri 15 Jan 2027:
+    ☐ Rev 45m: R2 ROUND-2 #82 Implement currying
+  Day 188 · Sat 16 Jan 2027:
+    ☐ Rev 45m: R2 ROUND-2 #83 Implement deep clone
+  Day 189 · Sun 17 Jan 2027:
+    ☐ Rev 45m: R2 ROUND-2 #84 Implement throttling
+  Day 190 · Mon 18 Jan 2027:
+    ☐ Rev 45m: R2 ROUND-2 #85 Password Generator
