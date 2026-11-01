@@ -71,7 +71,7 @@ Save time by sending independent tool calls together in one message instead of o
 1. **Inspect + set up at once:** read the task folder (README, package.json, src) and copy it to a scratch folder + `npm ci` in the same message.
 2. **Write all files in one batch:** utils, service/API mock, components, App, CSS. Every `Write` goes in a single message (Read any file you overwrite first, in the message before).
 3. **Verify in one command:** build + lint + a node assert self-check of the pure logic, chained in one Bash call.
-4. **Browser check in batches:** start the preview once, then use `browser_batch` (navigate, click, type, read DOM in one call); read the DOM with JS rather than screenshots. Stop the preview and remove the temporary `.claude/launch.json` together.
+4. **Browser check in batches:** start the preview once, then use `browser_batch` (navigate, click, type, read DOM in one call); read the DOM with JS rather than screenshots. Stop the preview and remove the temporary `.claude/launch.json` together. In `launch.json` use the long scratch path (`C:/Users/Ashutosh kumar/...`), not the short `ASHUTO~1` one: Vite can fail to serve files with the short path.
 5. **Doc + PDF in one command:** embed the code into the Markdown, convert it with marked, print with Chrome, and check pages/meta notes with pypdfium2, all in one Bash call; then view one rendered page.
 Never use `rm` with globs or a `cd` before it: copy into a fresh scratch folder instead of deleting files.
 
