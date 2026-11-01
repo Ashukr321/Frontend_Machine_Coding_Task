@@ -54,6 +54,11 @@ List the general steps to solve any machine coding task, a time budget for [TIME
     - Edge cases handled
     - Trade-offs to mention to the interviewer
     - What to add with more time (tests, performance, scaling)
+13. **Counter questions the interviewer may ask**
+    - The follow-up / cross questions an interviewer throws while you implement, grouped by step (requirements, state design, each hard challenge, each implementation step, performance, trade-offs)
+    - At least 15 questions, each as its own `#### Qn. question` heading followed by a short model answer (2-4 lines, code only when it helps)
+    - Include "what if" twists (e.g. "what if the data is 1 million items?", "what if the API is slow?") and "why not X?" questions about the decisions made above
+    - This is always the LAST section of the PDF
 
 Formatting: clear headings, tables where they help, short code blocks per challenge, plain language.
 
