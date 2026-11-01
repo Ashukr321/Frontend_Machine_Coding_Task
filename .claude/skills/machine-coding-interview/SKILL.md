@@ -61,5 +61,14 @@ Formatting: clear headings, tables where they help, short code blocks per challe
 Do NOT implement the solution in the task folder: the user builds it themselves from the thought process.
 Deliver a PDF only: write the walkthrough as Markdown in the scratchpad (no meta notes like "Generated with this skill" or "try it yourself first": only the problem header and the content), convert it to styled HTML (`npx -y marked@15.0.12 --gfm`), print it with headless Chrome (`chrome.exe --headless=new --no-pdf-header-footer --print-to-pdf=...`), and save it as `MACHINE_CODING.pdf` inside the matching task folder (e.g. `_01_form_validation`). Render a page or two to check the layout before handing it over.
 
+## Working fast (use multiple tools in parallel)
+Save time by sending independent tool calls together in one message instead of one by one:
+1. **Inspect + set up at once:** read the task folder (README, package.json, src) and copy it to a scratch folder + `npm ci` in the same message.
+2. **Write all files in one batch:** utils, service/API mock, components, App, CSS. Every `Write` goes in a single message (Read any file you overwrite first, in the message before).
+3. **Verify in one command:** build + lint + a node assert self-check of the pure logic, chained in one Bash call.
+4. **Browser check in batches:** start the preview once, then use `browser_batch` (navigate, click, type, read DOM in one call); read the DOM with JS rather than screenshots. Stop the preview and remove the temporary `.claude/launch.json` together.
+5. **Doc + PDF in one command:** embed the code into the Markdown, convert it with marked, print with Chrome, and check pages/meta notes with pypdfium2, all in one Bash call; then view one rendered page.
+Never use `rm` with globs or a `cd` before it: copy into a fresh scratch folder instead of deleting files.
+
 ## After completion
 Never commit. End the reply with a one-line commit message in the repo style (`type(scope):message`, e.g. `docs(_02_todo_app):add machine coding thought process pdf`) for the user to commit themselves.
