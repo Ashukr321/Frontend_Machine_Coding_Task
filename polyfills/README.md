@@ -4,7 +4,7 @@ This directory contains custom implementations (polyfills) of native JavaScript 
 
 ## 📂 Folder Structure
 
-- **[Array Methods](./Array_Methods/)**: `map`, `filter`, `reduce`.
+- **[Array Methods](./Array_Methods/)**: `map`, `filter`, `reduce`, `forEach`, `find*`, `some`, `every`, `includes`, `indexOf`, `flat`, `slice`, `splice`, `sort`, `Array.from` and more.
 - **[Function Methods](./Function_Methods/)**: `bind`, `call`, `apply`.
 - **[Promise Methods](./Promise_Methods/)**: `all`, `allSettled`.
 - **[Object Methods](./Object_Methods/)**: `create`.

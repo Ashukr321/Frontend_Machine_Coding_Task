@@ -1,16 +1,20 @@
 Array.prototype.myReduce = function (callback, initialValue) {
+  if (typeof callback !== "function") {
+    throw new TypeError("callback is not a function");
+  }
   let accumulator = initialValue;
-  let startIndex = 0;
+  let i = 0;
 
   if (arguments.length < 2) {
-    if (this.length === 0) {
+    // Skip holes: the first *existing* element becomes the accumulator
+    while (i < this.length && !(i in this)) i++;
+    if (i >= this.length) {
       throw new TypeError("Reduce of empty array with no initial value");
     }
-    accumulator = this[0];
-    startIndex = 1;
+    accumulator = this[i++];
   }
 
-  for (let i = startIndex; i < this.length; i++) {
+  for (; i < this.length; i++) {
     if (i in this) {
       accumulator = callback(accumulator, this[i], i, this);
     }

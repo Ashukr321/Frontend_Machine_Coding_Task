@@ -1,8 +1,11 @@
-Array.prototype.myFilter = function (callback) {
+Array.prototype.myFilter = function (callback, thisArg) {
+  if (typeof callback !== "function") {
+    throw new TypeError("callback is not a function");
+  }
   const result = [];
   for (let i = 0; i < this.length; i++) {
     if (i in this) {
-      if (callback(this[i], i, this)) {
+      if (callback.call(thisArg, this[i], i, this)) {
         result.push(this[i]);
       }
     }
